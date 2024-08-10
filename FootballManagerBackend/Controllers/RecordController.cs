@@ -41,7 +41,7 @@ SELECT
     r.record_id,
     r.team_id,
     t.team_name,
-    TO_CHAR(r.transaction_date, 'YYYY-MM-DD') AS transaction_date,
+    TO_CHAR(r.transaction_date, 'YYYY-MM') AS transaction_date,
     r.amount,
     r.description
 FROM
